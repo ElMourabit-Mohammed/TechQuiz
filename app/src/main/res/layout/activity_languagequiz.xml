@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity_languagequiz"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quiz"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:padding="5dp"
+        android:background="#006de3"
+        android:textColor="#fff"
+        android:textAlignment="center"
+        android:gravity="center_horizontal" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/listViewLanguages"
+        android:dividerHeight="5dp"
+        android:divider="@android:color/transparent"
+        android:scrollbars="none"
+        android:padding="10dp"
+        android:listSelector="@android:color/transparent"
+        />
+
+</LinearLayout>
